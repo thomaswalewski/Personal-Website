@@ -1,0 +1,13 @@
+.githublink {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo svg:hover {
+  fill: #070808;
+}
