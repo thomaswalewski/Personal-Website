@@ -28,8 +28,8 @@ export default function Main() {
           </div>
           <div className="about-desc-flex">
             <div className="background-mygrey about-desc rounded-xl align-top  p-3">
-              <h1 className="text-2xl sm:text-4xl text-center">How I got into Computer Science</h1>
-              <h2 className='text-justify text-md sm:text-lg'>
+              <h1 className="text-2xl sm:text-4xl text-center">How I became interested in Computer Science</h1>
+              <h2 className='text-justify text-md sm:text-lg indent-6'>
                 When I was in elementary and middle school, like many other kids, I absolutely loved minecraft. I still
                 think its a great game, but at that time it was something I played every day. As I was getting into middle
                 school, my friends and I wanted to play together and I ended up hosting some of our minecraft servers for
@@ -47,7 +47,7 @@ export default function Main() {
             </div>
             <div className="background-mygrey about-desc rounded-xl align-baseline p-3">
               <h1 className="text-2xl sm:text-4xl text-center">Interests Outside of Computer Science</h1>
-              <h2 className='text-justify text-md sm:text-lg'>
+              <h2 className='text-justify text-md sm:text-lg indent-6'>
                 <p>
                   While this website is dedicated to showcasing my life from the lens of computer science, I really
                   believe in the necessity of living a balanced life. One of my biggest personal hobbies is fitness, and I

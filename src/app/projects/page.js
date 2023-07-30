@@ -13,7 +13,7 @@ export default function Projects() {
                         <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Brain Hemorrhage Classification (Python, Java)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/HemorrhageClassifier" />
                     </div>
-                    <h2 className="text-justify text-md sm:text-lg">
+                    <h2 className="text-justify text-md sm:text-lg indent-6">
                         <p>
                             This project was done in a small group for my MATH 4570: Matrix Methods for Data Analysis and Machine
                             Learning Class. The goal of the project was to take real world patient CT scans and categorize them based
@@ -68,7 +68,7 @@ export default function Projects() {
                         <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Tokenizer and Shell (C)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/ShellProject" />
                     </div>
-                    <h2 className='text-justify text-md sm:text-lg'>
+                    <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             For this project a partner and I first developed a small tokenizer to parse tokens from user inputted
                             commands, and then developed a shell which would execute the commands that were supported
@@ -88,7 +88,7 @@ export default function Projects() {
                         <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Model of 16 bit RISC-V Processor (SystemVerilog)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/RISC-VModel" />
                     </div>
-                    <h2 className='text-justify text-md sm:text-lg'>
+                    <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             This project was through the lab of my Fundamentals of Digital Design and Computer Organization lab (EECE
                             2323). For this lab, we spent the class periods developing and implementing a model of a 16-bit RISC-V
@@ -105,13 +105,13 @@ export default function Projects() {
                         <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>This Website (Next.Js)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/Personal-Website" />
                     </div>
-                    <h2 className='text-justify text-md sm:text-lg'>
+                    <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             I developed this website just to initially learn a little bit about HTML and CSS and showcase some of my
                             projects, socials, and personality. I recently moved this website over to React so I would have more opportunities
                             to expand it in the future as I see fit. I used Next.js as the framework as create-react-app was recently deprecated,
                             and I wanted to learn something new. Next.js compatibility with firebase hosting is still in its infancy, but I having
-                            learned the basics of this framework I am excited to see how it develops
+                            learned the basics of this framework I am excited to see how it develops.
                         </p>
                     </h2>
                     <div className="justify-center flex">
@@ -120,7 +120,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Photo Editor Application (Java)</h1>
-                    <h2 className='text-justify text-md sm:text-lg'>
+                    <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             In the fall of 2022, a partner and I developed a photo-editor application in Java. The application allowed for
                             the user to upload photos in various formats, and perform 17 different operations to the photo (or parts of

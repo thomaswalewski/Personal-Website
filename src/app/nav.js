@@ -13,7 +13,7 @@ export default function NavBar() {
                 <li className="p-2"><a href="./files/Resume.pdf" target="_blank"> Resume </a></li>
             </ul>
             <div className="socials">
-                <a className="logo" href="https://www.linkedin.com/in/thomaswalewski/" target="_blank" rel="noopener noreferrer">
+                <a className="logo" href="https://www.linkedin.com/in/thomaswalewski/" title='LinkedIn' target="_blank" rel="noopener noreferrer">
                     <svg width="25" height="25" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
                         <path
                             fill-rule="evenodd"
@@ -22,7 +22,7 @@ export default function NavBar() {
                         />
                     </svg>
                 </a>
-                <a className="logo" href="https://github.com/thomaswalewski" target="_blank" rel="noopener noreferrer">
+                <a className="logo" href="https://github.com/thomaswalewski" title='Github' target="_blank" rel="noopener noreferrer">
                     <svg width="25" height="25" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M24.0432 0.179932C10.8147 0.179932 0.0876465 11.0878 0.0876465 24.5445C0.0876465 35.3096 6.95165 44.4426 16.4699 47.6643C17.6672 47.8899 18.1067 47.1358 18.1067 46.4922C18.1067 45.9112 18.0845 43.9919 18.0742 41.956C11.4097 43.4299 10.0034 39.0812 10.0034 39.0812C8.9137 36.265 7.34358 35.5161 7.34358 35.5161C5.17009 34.0039 7.50742 34.035 7.50742 34.035C9.91297 34.2065 11.1796 36.5458 11.1796 36.5458C13.3162 40.2707 16.7837 39.1938 18.1507 38.5712C18.3657 36.9969 18.9866 35.9212 19.6716 35.3132C14.3508 34.6971 8.7574 32.6079 8.7574 23.2719C8.7574 20.6118 9.6932 18.4383 11.2256 16.732C10.9769 16.1179 10.1569 13.6402 11.4577 10.2841C11.4577 10.2841 13.4693 9.62928 18.0472 12.7816C19.9581 12.2418 22.0074 11.971 24.0432 11.9618C26.0791 11.971 28.13 12.2418 30.0444 12.7816C34.6167 9.62928 36.6256 10.2841 36.6256 10.2841C37.9295 13.6402 37.1091 16.1179 36.8604 16.732C38.3964 18.4383 39.3259 20.6118 39.3259 23.2719C39.3259 32.6301 33.7218 34.6906 28.3874 35.2938C29.2467 36.0499 30.0123 37.5327 30.0123 39.8059C30.0123 43.0655 29.9845 45.6893 29.9845 46.4922C29.9845 47.1406 30.4157 47.9003 31.63 47.6611C41.1431 44.4357 47.9984 35.3059 47.9984 24.5445C47.9984 11.0878 37.273 0.179932 24.0432 0.179932Z"
@@ -50,7 +50,7 @@ export default function NavBar() {
                         />
                     </svg>
                 </a>
-                <a className="logo" href="mailto: walewski.t@northeastern.edu" target="_blank" rel="noopener noreferrer">
+                <a className="logo" href="mailto: walewski.t@northeastern.edu" title='Outlook' target="_blank" rel="noopener noreferrer">
                     <svg width="25" height="25" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M47.4675 26.328L47.4887 26.3157C47.8042 26.1378 47.9996 25.8038 48 25.4417V44.3783C47.9974 44.7833 47.8897 45.1631 47.7029 45.4919L30.897 35.6475L47.4675 26.328Z"
