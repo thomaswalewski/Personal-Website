@@ -65,8 +65,10 @@ a:active {
   min-width: fit-content;
   overflow: hidden;
   height: auto;
-  padding: 2%;
+  padding-bottom: 20px;
   padding-top: 0%;
+  padding-left: 70px;
+  padding-right: 70px;
   min-width: 360px;
   min-height: 500px;
 }
@@ -96,7 +98,7 @@ a:active {
   padding-top: 0px;
   padding-left: 70px;
   padding-right: 70px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   min-width: 360px;
   min-height: 500px;
 }
@@ -113,8 +115,8 @@ a:active {
   padding-right: 20px;
   padding-bottom: 20px;
   border-radius: 25px;
-  margin-top: 70px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+  margin-top: 20px;
   color: white;
   text-align: justify;
   min-width: fit-content;
@@ -122,7 +124,8 @@ a:active {
 }
 
 .project img {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   align-items: center;
 }
 
@@ -204,6 +207,8 @@ a:active {
   .project {
     padding-left: 20px;
     padding-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .about-desc-flex {
@@ -223,9 +228,10 @@ a:active {
   }
 
   .project-back {
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 95px;
   }
 
   #intro {
@@ -237,7 +243,7 @@ a:active {
   }
 
   .cover-photo {
-    width: 95%;
+    width: 85%;
     border-radius: 10px;
   }
 

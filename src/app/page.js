@@ -10,9 +10,11 @@ export default function Main() {
       <div className="home-back">
         <section id="intro">
           <div className='items-center flex flex-col'>
-            <img src="images/Res.jpg" className="cover-photo pb-4" />
-            <h1 className="title-name text-8xl text-center font-normal pb-4">Thomas Walewski</h1>
-            <h2 className="text-xl text-justify w-4/6">
+            <div className='pb-4 items-center flex flex-col'>
+              <img src="images/Res.jpg" className="w-7/8 md:w-2/3 mt-5 lg:mt-0 rounded-xl" />
+            </div>
+            <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Thomas Walewski</h1>
+            <h2 className="text-justify text-md sm:text-lg w-6/8 sm:w-4/6">
               Hello, thank you for visiting my website! I am a rising third year student at Northeastern University in
               Boston Massachusetts. I am majoring in Computer Science, and also pursuing a minor in Mathematics. I have a lot
               of wide interests within computer science, such as software development, database design, machine
@@ -22,12 +24,12 @@ export default function Main() {
         </section>
         <section id="about">
           <div>
-            <h1 className="text-8xl text-center font-normal">About Me</h1>
+            <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4 pt-4">About Me</h1>
           </div>
           <div className="about-desc-flex">
             <div className="background-mygrey about-desc rounded-xl align-top  p-3">
-              <h1 className="sub-title">How I got into Computer Science</h1>
-              <h2 className='text-justify text-xl'>
+              <h1 className="text-2xl sm:text-4xl text-center">How I got into Computer Science</h1>
+              <h2 className='text-justify text-md sm:text-lg'>
                 When I was in elementary and middle school, like many other kids, I absolutely loved minecraft. I still
                 think its a great game, but at that time it was something I played every day. As I was getting into middle
                 school, my friends and I wanted to play together and I ended up hosting some of our minecraft servers for
@@ -44,8 +46,8 @@ export default function Main() {
               </h2>
             </div>
             <div className="background-mygrey about-desc rounded-xl align-baseline p-3">
-              <h1 className="sub-title">Interests Outside of Computer Science</h1>
-              <h2 className='text-justify text-xl'>
+              <h1 className="text-2xl sm:text-4xl text-center">Interests Outside of Computer Science</h1>
+              <h2 className='text-justify text-md sm:text-lg'>
                 <p>
                   While this website is dedicated to showcasing my life from the lens of computer science, I really
                   believe in the necessity of living a balanced life. One of my biggest personal hobbies is fitness, and I
@@ -68,7 +70,7 @@ export default function Main() {
           </div>
         </section>
         <div className="photo-section">
-          <h1 className="text-8xl text-center font-normal p-5">Some of My Favorite Photos</h1>
+          <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Some of My Favorite Photos</h1>
           <div className="about-desc-flex">
             <img src="./images/Highlights/IMG_0010.jpg" width="45%" className="displayimg about-desc" />
             <img src="./images/Highlights/IMG_2251.jpg" width="45%" className="displayimg about-desc" />
