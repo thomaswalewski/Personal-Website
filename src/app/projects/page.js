@@ -57,7 +57,7 @@ export default function Projects() {
                                 <p>A confusion matrix for our final CNN model.</p>
                             </div>
                             <div>
-                                <img src="images/AI/3.jpg" className='h-4/5' />
+                                <img src="images/AI/3.jpg" className='h-4/5 w-auto' />
                                 <p>An example CT Scan image.</p>
                             </div>
                         </div>
@@ -141,8 +141,8 @@ export default function Projects() {
                         half sharpened and one that has had a mosaic operation done to the entirety of it.
                     </h2>
                     <div className="justify-center flex" width="95%">
-                        <img src="images/PhotoEditor/tangelosharp.jpg" width="45%" />
-                        <img src="images/PhotoEditor/TangMosaic.png" width="45%" />
+                        <img src="images/PhotoEditor/tangelosharp.jpg" className='p-4' width="45%" />
+                        <img src="images/PhotoEditor/TangMosaic.png" classname='p-4' width="45%" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg'>
                         The code for this project is closed due to academic integrity standards, so unfortunately there is no link to

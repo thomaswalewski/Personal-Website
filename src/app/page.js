@@ -11,7 +11,7 @@ export default function Main() {
         <section id="intro">
           <div className='items-center flex flex-col'>
             <div className='pb-4 items-center flex flex-col'>
-              <img src="images/Res.jpg" className="w-7/8 md:w-2/3 mt-5 lg:mt-0 rounded-xl" />
+              <img src="images/Res.jpg" className="w-7/8 md:w-2/4 mt-5 lg:mt-0 rounded-xl" />
             </div>
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Thomas Walewski</h1>
             <h2 className="text-justify text-md sm:text-lg w-6/8 sm:w-4/6">
