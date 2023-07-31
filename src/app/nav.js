@@ -7,10 +7,10 @@ export default function NavBar() {
     return (
         <nav>
             <ul className="nav_links">
-                <li className="p-2"><a href="/#"> Home </a></li>
-                <li className="p-2"><a href="/#about"> About Me</a></li>
-                <li className="p-2"><Link href="/projects"> Projects </Link></li>
-                <li className="p-2"><a href="./files/Resume.pdf" target="_blank"> Resume </a></li>
+                <li className="sm:p-2"><a href="/#"> Home </a></li>
+                <li className="sm:p-2"><a href="/#about"> About Me</a></li>
+                <li className="sm:p-2"><Link href="/projects"> Projects </Link></li>
+                <li className="sm:p-2"><a href="./files/Resume.pdf" target="_blank"> Resume </a></li>
             </ul>
             <div className="socials">
                 <a className="logo" href="https://www.linkedin.com/in/thomaswalewski/" title='LinkedIn' target="_blank" rel="noopener noreferrer">

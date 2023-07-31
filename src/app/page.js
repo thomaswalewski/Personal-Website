@@ -14,7 +14,7 @@ export default function Main() {
               <img src="images/Res.jpg" className="w-7/8 md:w-2/4 mt-5 lg:mt-0 rounded-xl" />
             </div>
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Thomas Walewski</h1>
-            <h2 className="text-justify text-md sm:text-lg w-6/8 sm:w-4/6">
+            <h2 className="text-justify text-md sm:text-lg w-6/8 sm:w-4/6 pl-3 pr-3 ">
               Hello, thank you for visiting my website! I am a rising third year student at Northeastern University in
               Boston Massachusetts. I am majoring in Computer Science, and also pursuing a minor in Mathematics. I have a lot
               of wide interests within computer science, such as software development, database design, machine

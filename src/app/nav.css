@@ -93,7 +93,7 @@ a:active {
 @media (max-width: 600px) {
   nav {
     display: inline;
-    min-height: 95px;
+    min-height: 75px;
   }
 
   .nav_links {

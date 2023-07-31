@@ -2,7 +2,7 @@ import './githublink.css'
 
 export default function GithubLink(props) {
     return (
-        <div className='p-2 sm:pb-0 sm:pt-0 flex items-center justify-center'>
+        <div className='p-2 pl-3 sm:pb-0 sm:pt-0 flex items-center justify-center'>
             <a className="logo" href={props.link} title='Github' target="_blank" rel="noopener noreferrer">
                 <svg width="25" height="25" viewBox="0 0 48 48" fill="white" xmlns="http://www.w3.org/2000/svg">
                     <path
