@@ -48,15 +48,17 @@ export default function Projects() {
                             point of the project.
                         </p>
                     </h2>
-                    <div className='justify-center'>
-                        <img src="images/AI/Results.png" width="100%" />
-                        <p>A table of the exact results for the CNN.</p>
+                    <div>
+                        <div className="p4 lg:p-0 flex flex-col items-center">
+                            <img src="images/AI/Results.png" className='w-full lg:w-11/12' />
+                            <p>A table of the exact results for the CNN.</p>
+                        </div>
                         <div className='justify-center sm:flex'>
-                            <div className='p-4 sm:w-1/2 h-auto'>
+                            <div className='p-4 sm:w-1/2 h-auto flex flex-col items-center'>
                                 <img src="images/AI/ConfMatrix.png" className='w-full' />
                                 <p>A confusion matrix for our final CNN model.</p>
                             </div>
-                            <div className='p-4 sm:w-1/2 h-auto'>
+                            <div className='p-4 sm:w-1/2 h-auto flex flex-col items-center'>
                                 <img src="images/AI/3.jpg" className='w-full' />
                                 <p>An example CT Scan image.</p>
                             </div>
@@ -79,9 +81,9 @@ export default function Projects() {
                         </p>
                     </h2>
                     <div className="justify-center flex">
-                        <img src="images/shell/example-interaction.png" width="95%" />
+                        <img src="images/shell/example-interaction.png" className='w-full lg:w-11/12' />
                     </div>
-                    <h2>An example interaction from the project description.</h2>
+                    <h2 className='text-center'>An example interaction from the project description.</h2>
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
@@ -97,7 +99,7 @@ export default function Projects() {
                         </p>
                     </h2>
                     <div className="justify-center flex">
-                        <img src="images/RISC-V/finalprocessor.png" width="95%" />
+                        <img src="images/RISC-V/finalprocessor.png" className='w-full lg:w-11/12' />
                     </div>
                 </div>
                 <div className="project">
@@ -115,7 +117,7 @@ export default function Projects() {
                         </p>
                     </h2>
                     <div className="justify-center flex">
-                        <img src="images/WebsiteProject/WebsitePhoto.png" width="95%" />
+                        <img src="images/WebsiteProject/WebsitePhoto.png" className='w-full lg:w-11/12' />
                     </div>
                 </div>
                 <div className="project">
@@ -134,7 +136,7 @@ export default function Projects() {
                         </p>
                     </h2>
                     <div className="justify-center flex">
-                        <img src="images/PhotoEditor/ScreenshotOfProgram.png" width="95%" />
+                        <img src="images/PhotoEditor/ScreenshotOfProgram.png" className='w-full lg:w-11/12' />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg'>
                         Here are some examples of the resulting images downloaded from the editor. There is an image with the left
