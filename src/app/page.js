@@ -11,10 +11,10 @@ export default function Main() {
         <section id="intro">
           <div className='items-center flex flex-col'>
             <div className='pb-4 items-center flex flex-col'>
-              <img src="images/Res.jpg" className="w-7/8 md:w-2/4 mt-5 lg:mt-0 rounded-xl" />
+              <img src="images/Res.jpg" className="w-7/8 md:w-2/4 mt-5 lg:mt-0 rounded-xl lg:w-2/3" />
             </div>
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Thomas Walewski</h1>
-            <h2 className="text-justify text-md sm:text-lg w-6/8 sm:w-4/6 pl-3 pr-3 ">
+            <h2 className="text-justify text-md sm:text-lg w-7/8 md:w-4/6 pl-3 pr-3 ">
               Hello, thank you for visiting my website! I am a rising third year student at Northeastern University in
               Boston Massachusetts. I am majoring in Computer Science, and also pursuing a minor in Mathematics. I have a lot
               of wide interests within computer science, such as software development, database design, machine
@@ -27,8 +27,8 @@ export default function Main() {
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4 pt-4">About Me</h1>
           </div>
           <div className="about-desc-flex">
-            <div className="background-mygrey about-desc rounded-xl align-top  p-3">
-              <h1 className="text-2xl sm:text-4xl text-center">How I became interested in Computer Science</h1>
+            <div className="background-mygrey about-desc rounded-xl align-top p-3">
+              <h1 className="text-2xl sm:text-4xl text-center">How I Became Interested in Computer Science</h1>
               <h2 className='text-justify text-md sm:text-lg indent-6'>
                 When I was in elementary and middle school, like many other kids, I absolutely loved minecraft. I still
                 think its a great game, but at that time it was something I played every day. As I was getting into middle
@@ -46,7 +46,7 @@ export default function Main() {
               </h2>
             </div>
             <div className="background-mygrey about-desc rounded-xl align-baseline p-3">
-              <h1 className="text-2xl sm:text-4xl text-center">Interests Outside of Computer Science</h1>
+              <h1 className="text-2xl sm:text-4xl text-center">My Interests Outside of Computer Science</h1>
               <h2 className='text-justify text-md sm:text-lg indent-6'>
                 <p>
                   While this website is dedicated to showcasing my life from the lens of computer science, I really

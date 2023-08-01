@@ -51,13 +51,13 @@ export default function Projects() {
                     <div className='justify-center'>
                         <img src="images/AI/Results.png" width="100%" />
                         <p>A table of the exact results for the CNN.</p>
-                        <div className='about-desc-flex'>
-                            <div>
-                                <img src="images/AI/ConfMatrix.png" className='h-4/5 block' />
+                        <div className='justify-center sm:flex'>
+                            <div className='p-4 sm:w-1/2 h-auto'>
+                                <img src="images/AI/ConfMatrix.png" className='w-full' />
                                 <p>A confusion matrix for our final CNN model.</p>
                             </div>
-                            <div>
-                                <img src="images/AI/3.jpg" className='h-4/5 block' />
+                            <div className='p-4 sm:w-1/2 h-auto'>
+                                <img src="images/AI/3.jpg" className='w-full' />
                                 <p>An example CT Scan image.</p>
                             </div>
                         </div>

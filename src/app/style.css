@@ -104,6 +104,10 @@ a:active {
   padding-right: 70px;
   padding-bottom: 20px;
   min-width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .project {
@@ -111,8 +115,6 @@ a:active {
   min-width: 250px;
   height: auto;
   width: auto;
-  margin-left: 7%;
-  margin-right: 7%;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -120,10 +122,10 @@ a:active {
   border-radius: 25px;
   margin-bottom: 70px;
   margin-top: 20px;
-  color: white;
+  margin-left: 7%;
+  margin-right: 7%;
+  max-width: 1800px;
   text-align: justify;
-  min-width: fit-content;
-  overflow: hidden;
 }
 
 .project img {
@@ -145,16 +147,6 @@ a:active {
   padding: 15px;
 }
 
-#descriptionFM {
-  width: 260px;
-}
-
-#net {
-  text-align: center;
-  width: fit-content;
-  margin-top: 55px;
-}
-
 .flexible2 {
   display: flex;
   text-align: center;
@@ -172,11 +164,11 @@ a:active {
 }
 
 #intro {
-  height: calc(100vh - 70px);
+  min-height: calc(100vh - 75px);
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: fit-content;
 }
 
 .background-mygrey {
@@ -190,9 +182,9 @@ a:active {
 
 .about-desc-flex {
   display: flex;
-  min-width: fit-content;
-  clear: both;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
 }
 
 .cover-photo {
@@ -201,6 +193,7 @@ a:active {
   border-radius: 10px;
 }
 
+/*900PX MEDIA Q   */
 @media (max-width: 900px) {
   .home-back {
     padding: 40px;
@@ -239,14 +232,6 @@ a:active {
   .home-back {
     padding-left: 10px;
     padding-right: 10px;
-  }
-
-  #intro {
-    min-height: calc(100vh - 75px);
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .cover-photo {
