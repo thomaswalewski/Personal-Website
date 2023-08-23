@@ -10,7 +10,51 @@ export default function Projects() {
             <div className="project-back">
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Brain Hemorrhage Classification (Python, Java)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'> StudyBuddy (MySQL, Express.Js, React.Js, Node.Js, Docker)</h1>
+                        <GithubLink link="https://github.com/thomaswalewski/StudyBuddy" />
+                    </div>
+                    <h2 className="text-justify text-md sm:text-lg indent-6">
+                        <p>
+                            This project is a small prototype for a web app, designed by me in a Directed Study to the specifications of the business students in
+                            Entrepreneurship 3330 Design Thinking for Startups course at the D'Amore-McKim School of Business at Northeastern
+                            University. The Study Buddy is designed to a be a combined Hardware and Software solution, where young students
+                            struggling to learn time management could have the help and emotional support of the physical Buddy, while also learning
+                            discipline, and having a bit of gamification for their work. This project is strictly the prototype for the web
+                            application that would complement the Buddy, which would also run its own software. The purpose of this prototype
+                            was to give some insight into how the web application would function, both for the young student and their parent.
+                        </p>
+                    </h2>
+
+                    <div className="justify-center sm:flex" width="95%">
+                        <img src="images/StudyBuddy/SBLogin.png" className='p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBParent.png" className='p-4 sm:w-1/2 h-auto' />
+                    </div>
+                    <h2 className="text-justify text-md sm:text-lg indent-6">
+                        <p>
+                            In the first two images above you can see the login screen and the home page for the student. The login process was
+                            completed through Express.Js using session tracking with cookies. Once the parent logged in they are able to see
+                            their childs completed and in progress assignments, pulled from the database. They are also able to see their childs
+                            usage of the application and assignment completion rate, as well as the health of the 'buddy' (Algorithms for these numbers
+                            would be developed in production). This allows the parent to see how their child is performing as well as track progress and change.
+                        </p>
+                    </h2>
+                    <div className="justify-center sm:flex" width="95%">
+                        <img src="images/StudyBuddy/SBWorking.png" className='p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBHome.png" className='p-4 sm:w-1/2 h-auto' />
+                    </div>
+                    <h2 className="text-justify text-md sm:text-lg indent-6">
+                        <p>
+                            In these two images, you can see the child's view of the application. Once the child logs in, they will be shown a home screen of their
+                            current assignments and some basic information about them. They also have the opportunity to add assignments on this page. To work on their assignments,
+                            the child should switch over to work mode, where they then can select an assignment from their currently incomplete assignments. They can then set a timer
+                            and work on an assignment. In this mode there would be more information shown on the phyiscal buddy that is also a part of this design. They can
+                            then mark any task as complete, having worked productively using this application to manage their time.
+                        </p>
+                    </h2>
+                </div>
+                <div className="project">
+                    <div className='sm:flex items-center'>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Brain Hemorrhage Classification (Python, Java)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/HemorrhageClassifier" />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
@@ -67,7 +111,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Tokenizer and Shell (C)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Tokenizer and Shell (C)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/ShellProject" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
@@ -87,7 +131,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Model of 16 bit RISC-V Processor (SystemVerilog)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Model of 16 bit RISC-V Processor (SystemVerilog)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/RISC-VModel" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
@@ -103,8 +147,8 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                    <div className='flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>This Website (Next.Js)</h1>
+                    <div className='sm:flex items-center'>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>This Website (Next.Js)</h1>
                         <GithubLink link="https://github.com/thomaswalewski/Personal-Website" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
@@ -121,7 +165,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                    <h1 className='text-2xl sm:text-4xl text-center sm:text-left'>Photo Editor Application (Java)</h1>
+                    <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Photo Editor Application (Java)</h1>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             In the fall of 2022, a partner and I developed a photo-editor application in Java. The application allowed for
