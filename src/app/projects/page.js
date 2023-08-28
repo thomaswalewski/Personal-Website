@@ -10,7 +10,7 @@ export default function Projects() {
             <div className="project-back">
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'> StudyBuddy (MySQL, Express.Js, React.Js, Node.Js, Docker)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'> StudyBuddy (MySQL, Express.Js, React.Js, Node.Js, Docker) Jan 2023 - May 2023</h1>
                         <GithubLink link="https://github.com/thomaswalewski/StudyBuddy" />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
@@ -26,8 +26,8 @@ export default function Projects() {
                     </h2>
 
                     <div className="justify-center sm:flex" width="95%">
-                        <img src="images/StudyBuddy/SBLogin.png" className='p-4 sm:w-1/2 h-auto' />
-                        <img src="images/StudyBuddy/SBParent.png" className='p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBLogin.png" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBParent.png" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
                         <p>
@@ -39,8 +39,8 @@ export default function Projects() {
                         </p>
                     </h2>
                     <div className="justify-center sm:flex" width="95%">
-                        <img src="images/StudyBuddy/SBWorking.png" className='p-4 sm:w-1/2 h-auto' />
-                        <img src="images/StudyBuddy/SBHome.png" className='p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBWorking.png" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
+                        <img src="images/StudyBuddy/SBHome.png" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
                         <p>
@@ -54,7 +54,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Brain Hemorrhage Classification (Python, Java)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Brain Hemorrhage Classification (Python, Java) Nov 2022 - Dec 2022</h1>
                         <GithubLink link="https://github.com/thomaswalewski/HemorrhageClassifier" />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
@@ -85,8 +85,7 @@ export default function Projects() {
                             had, so our next iterations were focused on improving the hemorrhage accuracy, which at this point was as
                             low as 47%. As we continued, we moved towards a more effective downsampling method to disrupt the data
                             less. We were previously only downsampling on one axis, but we moved it to be balanced, so structures in
-                            the brain were better preserved. Our final model had a 69.99% testing accuracy, which was really only
-                            brought up by higher accuracies in the hemorrhaging categories. Even though this model had a slightly
+                            the brain were better preserved. Our final model had a 69.99% testing accuracy. Even though this model had a slightly
                             lower accuracy for the normal category, we chose it over our previous models due to the significant
                             increase in accuracy in the smaller hemorrhaging categories, since detecting these hemorrhages is the
                             point of the project.
@@ -98,11 +97,11 @@ export default function Projects() {
                             <p>A table of the exact results for the CNN.</p>
                         </div>
                         <div className='justify-center sm:flex'>
-                            <div className='p-4 sm:w-1/2 h-auto flex flex-col items-center'>
+                            <div className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto flex flex-col items-center'>
                                 <img src="images/AI/ConfMatrix.png" className='w-full' />
                                 <p>A confusion matrix for our final CNN model.</p>
                             </div>
-                            <div className='p-4 sm:w-1/2 h-auto flex flex-col items-center'>
+                            <div className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto flex flex-col items-center'>
                                 <img src="images/AI/3.jpg" className='w-full' />
                                 <p>An example CT Scan image.</p>
                             </div>
@@ -111,7 +110,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Tokenizer and Shell (C)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Tokenizer and Shell (C) Feb 2023 </h1>
                         <GithubLink link="https://github.com/thomaswalewski/ShellProject" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
@@ -131,15 +130,15 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Model of 16 bit RISC-V Processor (SystemVerilog)</h1>
-                        <GithubLink link="https://github.com/thomaswalewski/RISC-VModel" />
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Model of 16 bit RISC-V Processor (SystemVerilog) May 2023 - June 2023</h1>
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
-                            This project was through the lab of my Fundamentals of Digital Design and Computer Organization lab (EECE
-                            2323). For this lab, we spent the class periods developing and implementing a model of a 16-bit RISC-V
+                            This project was through the lab of my Fundamentals of Digital Design and Computer Organization lab.
+                            For this lab, we spent the class periods developing and implementing a model of a 16-bit RISC-V
                             processor. The final model is below. The behaivoral code was implemented through several lab sessions, where
-                            each component was developed and tested.
+                            each component was developed and tested. Through this process, I gained an incredibly deep understanding of
+                            instruction decoding and execution across a processor.
                         </p>
                     </h2>
                     <div className="justify-center flex">
@@ -148,7 +147,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>This Website (Next.Js)</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>This Website (Next.Js) April 2023 - Present</h1>
                         <GithubLink link="https://github.com/thomaswalewski/Personal-Website" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
@@ -165,7 +164,7 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className="project">
-                    <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Photo Editor Application (Java)</h1>
+                    <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Photo Editor Application (Java) Oct 2022 - December 2022</h1>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>
                             In the fall of 2022, a partner and I developed a photo-editor application in Java. The application allowed for
@@ -187,13 +186,30 @@ export default function Projects() {
                         half sharpened and one that has had a mosaic operation done to the entirety of it.
                     </h2>
                     <div className="justify-center sm:flex" width="95%">
-                        <img src="images/PhotoEditor/tangelosharp.jpg" className='p-4 sm:w-1/2 h-auto' />
-                        <img src="images/PhotoEditor/TangMosaic.png" className='p-4 sm:w-1/2 h-auto' />
+                        <img src="images/PhotoEditor/tangelosharp.jpg" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
+                        <img src="images/PhotoEditor/TangMosaic.png" className='pb-4 pt-4 sm:p-4 sm:w-1/2 h-auto' />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg'>
                         The code for this project is closed due to academic integrity standards, so unfortunately there is no link to
                         github for it.
                     </h2>
+                </div>
+                <div className="project">
+                    <div className='sm:flex items-center'>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Garden Tracker (Python, Flask) Nov 2022 - Dec 2022</h1>
+                        <GithubLink link="https://github.com/thomaswalewski/DBDesignProject" />
+                    </div>
+                    <h2 className='text-justify text-md sm:text-lg indent-6'>
+                        <p>
+                            The GardenTracker is an application where users can create gardens, add plants, log harvests and waterings, as well as create new gardens. They can also log product usage on their garden and rate it. The application also features a company side where companies can list their products and see ratings.
+                            This allows for more potential products to be added for users. There is also a login for employees of the application where they can see page visits on the application and keep in contact with clients. This application was developed with a focus on the complexity of the database and the backend for
+                            a database design class. It features an extensive MySQL database visualized below. It features sixteen tables with thousands of rows of mock data I generated to allow for qeurying and interaction. The application feautured a frontend created through Appsmith for user interaction.
+                        </p>
+                    </h2>
+                    <div className="justify-center flex">
+                        <img src="images/GardenTracker/GardenTrackerDb.png" className='w-full lg:w-11/12' />
+                    </div>
+                    <h2 className='text-center'> A visualization of the database for this application.</h2>
                 </div>
                 <div>
                     <h3 className="credits">Built by Thomas Walewski</h3>

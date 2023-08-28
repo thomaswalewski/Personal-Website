@@ -2,12 +2,12 @@ import './404.css'
 
 export default function NotFound() {
     return (
-        <body>
+        <div className='notfound-back'>
             <div id="message">
-                <h1>Page Not Found</h1>
-                <p>I haven't added this page yet, I guess you are ahead of me.</p>
+                <h1 className='text-xl'>Page Not Found</h1>
+                <p className='text-justify'>I haven't added this page yet, I guess you are ahead of me.</p>
                 <a href="/">Back to Home Page</a>
             </div>
-        </body>
+        </div >
     )
 }
