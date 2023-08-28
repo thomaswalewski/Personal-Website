@@ -196,7 +196,7 @@ export default function Projects() {
                 </div>
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Garden Tracker (Python, Flask) Nov 2022 - Dec 2022</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Garden Tracker (Python, MySQL, Flask) Nov 2022 - Dec 2022</h1>
                         <GithubLink link="https://github.com/thomaswalewski/DBDesignProject" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
