@@ -1,16 +1,48 @@
+'use client'
+import React, { useEffect, useRef } from 'react';
 import '../style.css'
 import NavBar from '../nav'
 import '../stylet.css'
 import GithubLink from '../GithubLink'
 
 export default function Projects() {
+
+    const projectRefs = useRef([]);
+
+    useEffect(() => {
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('project-transition');
+                }
+            });
+        }, { threshold: 0 });
+
+
+        const projects = document.querySelectorAll('.project');
+        projects.forEach((project) => {
+            observer.observe(project);
+
+            projectRefs.current.push(project);
+        });
+
+        return () => {
+            if (projectRefs.current) {
+                projectRefs.current.forEach((project) => {
+                    observer.unobserve(project);
+                });
+            }
+        };
+    }, []);
+
     return (
         <div>
             <NavBar></NavBar>
             <div className="project-back">
                 <div className="project">
                     <div className='sm:flex items-center'>
-                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'> StudyBuddy (MySQL, Express.Js, React.Js, Node.Js, Docker) Jan 2023 - May 2023</h1>
+                        <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'> StudyBuddy (MySQL, Express, React, Node, Docker) April 2023 - May 2023</h1>
                         <GithubLink link="https://github.com/thomaswalewski/StudyBuddy" />
                     </div>
                     <h2 className="text-justify text-md sm:text-lg indent-6">
@@ -111,7 +143,6 @@ export default function Projects() {
                 <div className="project">
                     <div className='sm:flex items-center'>
                         <h1 className='text-2xl sm:text-4xl text-center sm:text-left sm:p-2'>Tokenizer and Shell (C) Feb 2023 </h1>
-                        <GithubLink link="https://github.com/thomaswalewski/ShellProject" />
                     </div>
                     <h2 className='text-justify text-md sm:text-lg indent-6'>
                         <p>

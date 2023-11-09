@@ -1,9 +1,11 @@
 import NavBar from './nav'
+import DisplayImg from './displayimg'
 import './style.css'
 import './stylet.css'
 import './nav.css'
 
 export default function Main() {
+
   return (
     <div>
       <NavBar></NavBar>
@@ -15,9 +17,9 @@ export default function Main() {
             </div>
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Thomas Walewski</h1>
             <h2 className="text-justify text-md sm:text-lg w-7/8 md:w-4/6 pl-3 pr-3 ">
-              Hello, thank you for visiting my website! I am a rising third year student at Northeastern University in
+              Hello, thank you for visiting my website! I am a third year student at Northeastern University in
               Boston Massachusetts. I am majoring in Computer Science, and also pursuing a minor in Mathematics. I have a lot
-              of wide interests within computer science, such as software development, database design, machine
+              of wide interests within computer science, such as software development, machine
               learning, and web development. Please check out all of the pages available!
             </h2>
           </div>
@@ -75,12 +77,12 @@ export default function Main() {
           <div className="photo-section">
             <h1 className="sm:text-8xl title-name text-5xl text-center font-normal pb-4">Some of My Favorite Photos</h1>
             <div className="about-desc-flex">
-              <img src="./images/Highlights/IMG_0010.jpg" width="45%" className="displayimg about-desc" />
-              <img src="./images/Highlights/IMG_2251.jpg" width="45%" className="displayimg about-desc" />
+              <DisplayImg source="./images/Highlights/IMG_0010.jpg" location="Fairfield, CT" />
+              <DisplayImg source="./images/Highlights/IMG_2251.jpg" location="Fairfield, CT" />
             </div>
             <div className="about-desc-flex">
-              <img src="./images/Highlights/IMG_0360.jpg" width="45%" className="displayimg about-desc" />
-              <img src="./images/Highlights/IMG_0071.jpg" width="45%" className="displayimg about-desc" />
+              <DisplayImg source="./images/Highlights/IMG_0360.jpg" location="Barryville, NY" />
+              <DisplayImg source="./images/Highlights/IMG_0071.jpg" location="Stratton, VT" />
             </div>
           </div>
         </div>
