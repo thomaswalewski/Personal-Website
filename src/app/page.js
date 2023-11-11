@@ -1,8 +1,7 @@
-import NavBar from './nav'
-import DisplayImg from './displayimg'
+import NavBar from './components/nav/nav'
+import DisplayImg from './components/DisplayImg/displayimg'
 import './style.css'
 import './stylet.css'
-import './nav.css'
 
 export default function Main() {
 
@@ -87,7 +86,7 @@ export default function Main() {
           </div>
         </div>
         <div>
-          <h3 className="credits">Built by Thomas Walewski</h3>
+          <h3 className="text-center font-normal">Built by Thomas Walewski</h3>
         </div>
       </div >
     </div >

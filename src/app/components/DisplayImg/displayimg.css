@@ -1,0 +1,53 @@
+.img-holder {
+  width: 41.6667%;
+  margin: 2rem;
+}
+
+.img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s, visibility 0.4s;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  text-align: center;
+}
+
+.img-wrapper {
+  position: relative;
+  display: block;
+}
+
+.img-wrapper:hover .img-desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.displayimg {
+  border-radius: 10px;
+}
+
+.displayimg:hover {
+  filter: blur(2px);
+}
+
+/*1050px MEDIA Q   */
+@media (max-width: 1050px) {
+  .img-holder {
+    width: 95%;
+    margin: 0px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
+}

@@ -1,9 +1,9 @@
 'use client'
 import React, { useEffect, useRef } from 'react';
 import '../style.css'
-import NavBar from '../nav'
+import NavBar from '../components/nav/nav'
 import '../stylet.css'
-import GithubLink from '../GithubLink'
+import GithubLink from '../components/GithubLink/GithubLink'
 
 export default function Projects() {
 
@@ -243,7 +243,7 @@ export default function Projects() {
                     <h2 className='text-center'> A visualization of the database for this application.</h2>
                 </div>
                 <div>
-                    <h3 className="credits">Built by Thomas Walewski</h3>
+                    <h3 className="text-center font-normal">Built by Thomas Walewski</h3>
                 </div>
             </div>
         </div>
