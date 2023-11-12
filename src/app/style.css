@@ -276,9 +276,8 @@ a:active {
     padding-right: 10px;
   }
 
-  .cover-photo {
-    width: 85%;
-    border-radius: 10px;
+  .cover-text {
+    text-shadow: 1px 1px 1px #323a41;
   }
 
   @media (max-width: 600px) {
