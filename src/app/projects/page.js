@@ -185,9 +185,9 @@ export default function Projects() {
                         <p>
                             I developed this website just to initially learn a little bit about HTML and CSS and showcase some of my
                             projects, socials, and personality. I recently moved this website over to React so I would have more opportunities
-                            to expand it in the future as I see fit. I used Next.js as the framework as create-react-app was recently deprecated,
-                            and I wanted to learn something new. Next.js compatibility with firebase hosting is still in its infancy, but I having
-                            learned the basics of this framework I am excited to see how it develops.
+                            to expand it in the future as I see fit. I use Next.js as the framework as create-react-app was recently deprecated,
+                            and I wanted to learn something new. I have really enjoyed working with this project, as I find it super satisfying to create
+                            something nice.
                         </p>
                     </h2>
                     <div className="justify-center flex">

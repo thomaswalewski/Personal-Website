@@ -33,6 +33,7 @@ nav {
   min-width: fit-content;
   word-wrap: normal;
   z-index: 2;
+  box-shadow: 1px 1px 1px #01295e;
 }
 
 .nav_links {
@@ -58,6 +59,14 @@ nav {
 
 .logo svg:hover {
   fill: #070808;
+}
+
+.logo svg {
+  transition: fill 0.3s ease;
+}
+
+.nav_links li a {
+  transition: color 0.3s ease;
 }
 
 a:link {
