@@ -37,10 +37,10 @@ export default function Main() {
         </div>
         <div className='flex justify-center'>
           <h2 className="text-justify justify-center text-md xl:w-2/3 sm:text-lg pl-3 pr-3">
-            I am a third year student at Northeastern University in
-            Boston Massachusetts, majoring in Computer Science and also pursuing a minor in Mathematics. I have a lot
-            of wide interests within computer science, such as software development, machine
-            learning, and web development.
+            I am a rising foruth year student at Northeastern University in
+            Boston Massachusetts, majoring in Computer Science and also pursuing a minor in Mathematics. This summer and fall I will be
+            doing a Software Engineering co-op at Chewy in Boston. My Interests
+            in computer science are Machine Learning, Theory, and Software Engineering.
           </h2>
         </div>
         <div className='justify-center flex'>
@@ -94,8 +94,11 @@ export default function Main() {
               <DisplayImg source="./images/Highlights/IMG_2251.jpg" location="Fairfield, CT" />
             </div>
             <div className="about-desc-flex">
-              <DisplayImg source="./images/Highlights/IMG_0360.jpg" location="Barryville, NY" />
+              <DisplayImg source="./images/Highlights/Benderson.jpg" location="Sarasota, FL" />
               <DisplayImg source="./images/Highlights/IMG_0071.jpg" location="Stratton, VT" />
+            </div>
+            <div className="about-desc-flex">
+              <DisplayImg source="./images/Highlights/IMG_0360.jpg" location="Barryville, NY" />
             </div>
           </div>
         </div>
