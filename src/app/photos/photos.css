@@ -1,0 +1,31 @@
+.photos-back {
+  margin-top: 70px;
+  background-color: #0d0e0f;
+  width: auto;
+  height: fit-content;
+  overflow: hidden;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 20px;
+  min-width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*1050px MEDIA Q   */
+@media (max-width: 1050px) {
+  .photos-back {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .photos-back {
+    margin-top: 95px;
+  }
+}
